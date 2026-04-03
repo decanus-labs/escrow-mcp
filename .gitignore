@@ -1,0 +1,36 @@
+
+# Gitignore for escrow-mcp public repository
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+/node_modules/
+/dist/
+/build/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sensitive files - explicit exclusion even if not present
+# The public repo MUST NOT contain any of these
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.priv
+*.secret
+*.passwd
+.openclaw/
+shared/
+BLUEPRINT.md
